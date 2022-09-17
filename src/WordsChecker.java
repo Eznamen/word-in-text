@@ -8,7 +8,7 @@ public class WordsChecker {
     public WordsChecker(String text) {
         this.text = text;
     }
-    
+
     public boolean hasWord(String word) {
         String textLower = text.toLowerCase();
         Set<String> set = new HashSet<>();
